@@ -44,11 +44,11 @@ y_pred_scaled = knn_model_scaled.predict(X_test_scaled)
 accuracy_scaled = accuracy_score(y_test, y_pred_scaled)
 conf_matrix_scaled = confusion_matrix(y_test, y_pred_scaled)
 
-print("🔴 Ölçeklendirilmemiş Verilerle Sonuçlar:")
+print(" Ölçeklendirilmemiş Verilerle Sonuçlar:")
 print(f"Accuracy: {accuracy_no_scaling:.4f}")
 print(f"Confusion Matrix:\n{conf_matrix_no_scaling}\n")
 
-print("🟢 Ölçeklendirilmiş Verilerle Sonuçlar:")
+print(" Ölçeklendirilmiş Verilerle Sonuçlar:")
 print(f"Accuracy: {accuracy_scaled:.4f}")
 print(f"Confusion Matrix:\n{conf_matrix_scaled}\n")
 
