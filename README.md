@@ -1,0 +1,1 @@
+Bu makine öğrenmesi repomuz son hafta verilen ödevler çerçevesinde mercedes veriseti kullanılarak farklı classificationların ölçeklendirme yapılmadan önce ve sonraki accurasy değerlerini karşılaştırmak amacıyla yapılıp elde edilen sonuçlar confusion matrixle görsellere dökülmüştür 
